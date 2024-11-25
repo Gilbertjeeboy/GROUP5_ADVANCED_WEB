@@ -4,5 +4,6 @@ if (!$con)
  {
 
  die("connect failed".mysqli_connect_error($con));
+
 }
  ?>
