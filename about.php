@@ -24,8 +24,28 @@
 		</ul>
 </nav>
 <main class="about">
-<div>
-	
+<div class="pic">
+	<h1>ABOUT US</h1>
+	<P>Welcome to [Your Website Name], your one-stop destination for innovative and impactful marketing solutions.
+	We specialize in providing a seamless blend of digital and traditional marketing strategies designed to help 
+	businesses of all sizes achieve their goals and stand out in a competitive marketplace.</P>
+
+<h1>Who We Are</h1>
+At MIXED MARKERTING, we are a team of passionate marketers, strategists, and creatives committed 
+to delivering results-driven solutions.Whether you’re looking to enhance your online presence or 
+maximize the potential of offline marketing channels,we’ve got you covered.
+
+<h1>Our Mission</h1>
+To empower businesses by crafting customized marketing solutions that connect brands with their audiences and drive measurable success.
+
+<h1>What We Offer</h1>
+Digital Marketing,Traditional Marketing,Integrated Campaigns and Consulting Services.
+ Need guidance? Our experts provide strategic insights to refine your marketing approach and optimize your ROI.
+<h1>Why Choose Us?</h1>
+We offer a mix of online and offline strategies tailored to your unique needs,Our campaigns are designed to deliver tangible results that align with your business objectives,Innovation is at the heart of everything we do,We believe in collaboration and transparency, working closely with you to turn your vision into reality.
+</div>
+<div class="text">
+
 </div>
 </main>
 <footer>

@@ -29,7 +29,7 @@
 		<li><a href="about.php">ABOUT</a></li>
 		<li class="hnn"><a href="contact.php"> CONTACT</a></li>
 		<li class="hnn"><a href="login.php"> LOGIN</a></li>
-		<li class="hnn"><a href="login.php"> SIGN UP</a></li>
+		<li class="hnn"><a href="signup.php"> SIGN UP</a></li>
 			
 		</ul>
 </nav>

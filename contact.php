@@ -33,10 +33,10 @@
 		<input type="submit" name="" value="send"><br><br>
 		<div class="contacts">
 			<h1>OUR CONTACTS</h1>
-		<label>Phone:0782824186</label><br>
-		<label>Phone:0782824186</label><br>
-		<label>Phone:0782824186</label><br>
-		<label>Phone:0782824186</label><br>
+		<label>Phone:+250782824186</label><br>
+		<label>whatsapp:<a href="https://wa.me/250782824186">0782824186</a></label><br>
+		<label>Email:mixedmarkerting@gmail.com</label><br>
+		<label>facebook:MIXED MARKERTING</label><br>
 	</div>
 	</form>
 </main>

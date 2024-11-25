@@ -132,9 +132,22 @@
   .about
 {
 	height: 100%;
-	background-image: url('../img/pic12.jpg');
+	background-image: url('../img/phone.jpg');
 	background-size: cover;
 	width: 100%;
+}
+.about .pic
+{
+	background: azure;
+	width:70% ;
+	height: 100%;
+	float: right;
+}
+.about .text
+{
+	background: rgb(64, 138, 122);
+	width: 30%;
+	height: 100%;
 }
   /*contact structure */
   .contact
