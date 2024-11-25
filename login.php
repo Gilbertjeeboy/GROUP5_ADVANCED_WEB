@@ -1,4 +1,30 @@
 <!DOCTYPE html>
+<?php
+	require 'connection.php';
+	if ($_SERVER['REQUEST_METHOD']=='POST')
+	 {
+		$usr=$_POST['user'];
+		$email=$_POST['email'];
+		$pwd=$_POST['pswd'];
+
+		$sql="SELECT * FROM users WHERE email='$email' AND username='$usr' AND password='$pwd' ";
+		if(mysqli_query($con,$sql))
+		{
+			echo "welcome";
+			session_start();
+			$data=mysqli_fetch_assoc(mysqli_query($con,$sql));
+			$_SESSION['user']=$data['username'];
+			$_SESSION['email']=$email;
+			$user_id=$_SESSION['id']=$data['user_id'];
+			setcookie("user_id",$data['$user_id'],time()+3600,"/");
+			echo $_COOKIE["n"];
+			header("location:index.php");
+		}
+			else{
+				die("Registration failed".mysqli_connect_error($sql));	
+			}
+	}
+?>
 <html>
 <head>
 	<title>MIXED MARKETING-CONTACT</title>
@@ -24,12 +50,12 @@
 		</ul>
 </nav>
 <main class="login">
-	<form action="login.php" method="POST"><br><br>
+	<form  method="POST"><br><br>
 		<fieldset>
 			<legend><h2>LOGIN TO MIXED WEBSITES</h2></legend>
-		<input type="text" name="" placeholder="Enter username"><br><br>
-		<input type="email" name="" placeholder="Email"><br><br>
-		<input type="password" name="" placeholder="Enter password"><br><br>
+		<input type="text" name="user" placeholder="Enter username" required><br><br>
+		<input type="email" name="email" placeholder="Email" required><br><br>
+		<input type="password" name="pswd" placeholder="Enter password" required><br><br>
 		<input type="submit" name="" value="LOGIN"><br><br><br>
 	</fieldset>
 	</form>

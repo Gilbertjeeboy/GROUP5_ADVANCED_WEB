@@ -22,11 +22,14 @@
 			<option value="electronics" id="fs">Electronic devices</option>
 			<option value="fish">Fish farming</option>
 			<option value="event">Event planning services</option>
+			<option value="kits">Premier league kits</option>
+			<option value="fashion">Fashions</option>
 		</select></li>
 		</li>
 		<li><a href="about.php">ABOUT</a></li>
 		<li class="hnn"><a href="contact.php"> CONTACT</a></li>
 		<li class="hnn"><a href="login.php"> LOGIN</a></li>
+		<li class="hnn"><a href="login.php"> SIGN UP</a></li>
 			
 		</ul>
 </nav>

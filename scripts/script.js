@@ -39,10 +39,18 @@ if (document.getElementById('services').value=='electronics')
   {
   	window.location='fish_farming/index.php';
   }
-   else if (document.getElementById('services').value=='event')
-  {
-  	window.location='about.php';
-  }
+  else if (document.getElementById('services').value=='kits')
+	{
+		window.location='premier_league/index.php';
+	}
+	else if (document.getElementById('services').value=='fashion')
+		{
+			window.location='fashion/index.php';
+		}
+		else if (document.getElementById('services').value=='event')
+			{
+				window.location='event_planning/index.php';
+			}
 
 }
 
