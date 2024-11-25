@@ -1,0 +1,179 @@
+	*
+	{
+		font-family: arial;
+		margin: 0px;
+	}
+	ul li{
+		float: right;
+		margin-right: 5px;
+		padding-left: 50px;
+		list-style-type: none;
+	}
+	ul
+	{
+		margin-right: 80px;
+		height: 30px;
+		padding-bottom: 40px;
+	}
+	ol li
+	{
+		list-style-type: none;
+		float: right;
+		margin-right: 50px;
+	}
+	.h3
+	{
+		float: left;
+		margin-top: px;
+	}
+	.a
+	{
+		text-align: center;
+		color: blue;
+		background:seagreen;
+		height: 30px;
+	}
+	.h
+	{
+		float: left;
+	}
+	.b
+	{
+		height: 60px;
+		padding-top: 25px;
+	}
+	a{
+		color: white;
+		text-decoration: none;
+		font-family: arial;
+		margin-right: 50px;
+	}
+	a:hover
+	{
+		padding: 10px;
+		border-radius: 5px;
+		color: seagreen;
+	}
+
+	.p
+	{
+		padding-top: 100px;
+		color: seagreen;
+	}
+	h3 i q
+	{
+		color: seagreen;
+		font-size: 25px;
+	}
+	h1
+	{
+		font-size: 25px;
+		color: seagreen;
+	}
+	q
+	{
+		color: seagreen;
+	}
+
+	.d3{
+		background: url(img/ish4.jpg);
+		background-size: 1500px;
+		background-repeat:no-repeat;
+		width: 100%;
+		margin-bottom: -155px;
+		height:570px;
+	}
+	.d3ln{
+		background: url(img/pc8.jpg);
+		background-size: 360px;
+		width: 60%;
+		margin-top: 25px;
+		height: 300px;
+		float: right;
+	}
+	.d4{
+		background:url(img/back1.jpg);
+		width: 20%;
+		margin-top: 25px;
+		height: 400px;
+		background-repeat: no-repeat;
+	}
+
+	.d4
+	{
+		padding: 0px; 
+	}
+	.d2 img
+	{
+		width: 100%;
+		height: 100%;
+	}
+	tr:nth-child(even)
+	{
+		background: azure;
+	}
+	th
+	{
+		background: grey;
+		color: azure;
+	}
+	td,th
+	{
+		border-top: 1px solid green;
+		border-left: 1px solid green;
+	}
+	.ftr
+	{
+		background: radial-gradient(azure);
+		height: 300px
+	}
+
+	.a,.b ul
+	{
+		position: fixed;
+		width: 100%;
+	}
+	.b ul
+	{
+		margin-top: 5px;
+	}
+	ul
+	{
+		background: #213432;
+		color: white;
+		padding-top: 20px;
+		margin-top: -10px;
+	}
+	.srv li
+	{
+		float: left;
+	}
+	#sfm input[type=submit]
+	{
+		border-radius: 12px;
+		margin-left: -50px;
+		color: red;
+		font-weight: bold;
+	}
+	#sfm input[type=submit]:hover
+	{
+		cursor: pointer;
+	}
+	.fmc
+	{
+		margin-left: 30px;
+		margin-top: 20px;
+	}
+	.fmc input,textarea
+	{	width: 300px;
+		padding: 10px;
+		outline: none;
+		background: #efeeff;
+		border-radius: 5px;
+		border: 0px;
+		border-bottom: 1px solid seagreen;
+	}
+	.fmc input[type=submit]:hover
+	{
+		color: #efeeff;
+	}
